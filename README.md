@@ -1,6 +1,6 @@
 # Gym Progress Duo — integrated foundation
 
-A React + TypeScript app with Claude's Supabase backend imported and a first frontend connection layer. It has no Base44 dependency or connection. Nothing here has been publicly deployed. Local fictional preview mode remains available without creating accounts.
+A React + TypeScript app with Claude's Supabase backend imported and a first frontend connection layer. It has no Base44 dependency or connection. The frontend is deployed to Vercel behind Vercel Authentication at [gym-progress-duo.vercel.app](https://gym-progress-duo.vercel.app); local fictional preview mode remains available without creating accounts.
 
 ## Start here
 
@@ -48,7 +48,7 @@ Photo upload is disabled in local preview. Connected mode accepts a single exist
 
 The local scoring reference awards habit consistency only (up to **90**); improvement is **0** until the server implements the two bonuses. The product maximum remains 100. Body records never earn points. Late preview edits are blocked instead of pretending to enforce production reduction-only correction rules. Deletion recomputes the local consistency total. Production must enforce correction ceilings and benchmark-history effects transactionally.
 
-This code has no hosting subscription. Future hosting, database, auth and storage costs depend on the backend choice; no price or paid plan is assumed. The old Base44 project was not changed or deleted as part of this replan.
+The current Vercel project uses the owner's existing plan. Future database, auth and storage costs depend on the Supabase setup; no paid plan is assumed. The old Base44 project was not changed or deleted as part of this replan.
 
 ## Verification
 
@@ -63,7 +63,7 @@ See [verification details](docs/VERIFICATION.md). Browser tests cover local prev
 
 ## Change the look
 
-Edit the variables at the top of `src/styles.css`: background/panel colors, lime accent, category colors, corner radius and sidebar width. All charts and controls inherit those values. The UI uses system fonts, inline icons and lightweight SVG charts; no chart service or remote image dependency.
+Edit the variables at the top of `src/styles.css`: background/panel colors, champagne accent, category colors, corner radius and sidebar width. All charts and controls inherit those values. The UI uses system fonts, inline icons and lightweight SVG charts; no chart service or remote image dependency.
 
 ## Project map
 
